@@ -1,0 +1,137 @@
+body {
+-webkit-print-color-adjust:exact;
+background-color:#F8F8F8;
+font-family: 'Nunito', sans-serif;
+font-size: 4mm;
+color:#367588;
+}
+
+/*PRINTING*/
+@page {
+size: 148mm 210mm portrait;
+margin: 0
+}
+
+hr {
+clear:both;
+display: block;
+height: 0.05mm;
+margin:5mm 0;
+border: 0;
+border-top: 0.2mm solid;
+border-color:#367588;
+background-color:#367588;
+}
+
+#wrapper {
+width:136mm;
+height:198mm;
+margin:0 auto;
+padding:5mm;
+box-shadow: 0 0 10mm 0 #808080;
+background-color: #E1E9EC;
+background-image: url("res/snowflake.png"), url("res/snowflake.png");
+background-position: right -50mm bottom -50mm, left -50mm top -50mm;
+background-repeat: no-repeat;
+border: 1mm solid #367588;
+text-align: center;
+}
+
+#logo {
+	width:40mm;
+	height:40mm;
+	margin:0 auto;
+	display:block;
+	border-radius: 50%;
+	border: 1mm solid #367588;
+}
+
+#title {
+	margin:0;
+	font-size:18mm;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 0.4mm 0 0 #367588, 0 -0.4mm 0 #367588, 0 0.4mm 0 #367588, -0.4mm 0 0 #367588;
+	color:#ffffff;
+}
+
+#deals {
+	margin:5mm;
+	padding:0;
+}
+
+.deal {
+	list-style: none;
+	margin-bottom: 5mm;
+}
+
+.deal:before, .deal:after {
+	background-image: url("res/snowflake2.png");
+	background-size: 5mm;
+	background-repeat: no-repeat;
+    display: inline-block;
+    width: 5mm; 
+    height: 5mm;
+    content:"";
+    vertical-align: middle;
+}
+
+.deal:before {
+	float: left;
+}
+
+.deal:after {
+	float:right;
+}
+
+.sponsor {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width:20mm;
+    height: auto;
+    margin:0 5mm;
+}
+
+#murrayfield {
+	width:25mm;
+}
+
+#pilgrim {
+	width:40mm;
+}
+
+#membership-title {
+	margin:5mm 0;
+}
+
+.cost {
+	display:inline-block;
+	text-align: center;
+	margin:0 5mm;
+}
+
+#download {
+text-align:center;
+margin:5mm 0;
+}
+
+#download a {
+text-decoration:none;
+color:inherit;
+}
+
+#download img {
+width:5mm;
+margin-right:2mm;
+display:inline-block;
+vertical-align:middle;
+}
+
+#download p {
+display:inline-block;
+text-align:center;
+vertical-align:middle;
+margin:0;
+font-size:3mm;
+color:#000000;
+}
